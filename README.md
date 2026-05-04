@@ -1,6 +1,6 @@
 # wukong-skills
 
-孙悟空（@bubu-h）的 Claude Code Skill 集合，以 [Claude Code Plugin Marketplace](https://docs.claude.com/en/docs/claude-code/plugins) 形式发布。
+大师兄（@bubu-h）的 Claude Code Skill 集合，以 [Claude Code Plugin Marketplace](https://docs.claude.com/en/docs/claude-code/plugins) 形式发布。
 
 ## 当前包含的 Skill
 

@@ -1,0 +1,14 @@
+{
+  "name": "wukong-skills",
+  "owner": {
+    "name": "bubu-h"
+  },
+  "plugins": [
+    {
+      "name": "credit-report-formatter",
+      "source": "./credit-report-formatter",
+      "description": "将 markdown 格式的授信报告转换为标准格式的 docx 文件（黑体/宋体、固定行距、表格全边框居中等）",
+      "version": "0.1.0"
+    }
+  ]
+}

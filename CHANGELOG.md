@@ -1,5 +1,10 @@
 # Changelog
 
+## [credit-report-formatter] 0.1.2 - 2026-05-04
+
+### Changed
+- Title（文档大标题）由居中对齐改为左对齐（Windows / macOS 双模板均已修正）
+
 ## [credit-report-formatter] 0.1.1 - 2026-05-04
 
 ### Fixed

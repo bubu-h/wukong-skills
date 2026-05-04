@@ -1,5 +1,10 @@
 # Changelog
 
+## [credit-report-formatter] 0.1.1 - 2026-05-04
+
+### Fixed
+- 修复 Title（文档大标题）继承 Normal 样式的固定 20 磅行距问题，改为单倍行距（Windows / macOS 双模板均已修正）
+
 ## [credit-report-formatter] 0.1.0 - 2026-05-04
 
 ### Added

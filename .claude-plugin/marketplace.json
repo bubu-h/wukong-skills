@@ -1,5 +1,6 @@
 {
   "name": "wukong-skills",
+  "description": "孙悟空（@bubu-h）的 Claude Code Skill 集合，授信报告格式化等工具",
   "owner": {
     "name": "bubu-h"
   },

@@ -16,7 +16,7 @@
 ## 安装
 
 ```
-/plugin marketplace add bubu-h/wukong-claude-skills
+/plugin marketplace add bubu-h/wukong-skills
 /plugin install credit-report-formatter@wukong-skills
 ```
 

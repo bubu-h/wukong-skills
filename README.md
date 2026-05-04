@@ -6,7 +6,7 @@
 
 | Skill | 说明 | 版本 |
 |---|---|---|
-| [credit-report-formatter](./credit-report-formatter/) | 将 markdown 格式的授信报告转换为标准格式的 docx 文件 | 0.1.0 |
+| [credit-report-formatter](./credit-report-formatter/) | 将 markdown 格式的授信报告转换为标准格式的 docx 文件 | 0.1.3 |
 
 ## 安装方法
 

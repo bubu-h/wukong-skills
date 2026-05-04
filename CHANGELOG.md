@@ -1,5 +1,11 @@
 # Changelog
 
+## [credit-report-formatter] 0.1.3 - 2026-05-04
+
+### Changed
+- Title（文档大标题）由左对齐改回居中（恢复 v0.1.1 之前的样式，Windows / macOS 双模板均已修正）
+- 同步更新根目录 README 中的版本号表格
+
 ## [credit-report-formatter] 0.1.2 - 2026-05-04
 
 ### Changed

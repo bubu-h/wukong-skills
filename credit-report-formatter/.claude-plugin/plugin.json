@@ -1,8 +1,0 @@
-{
-  "name": "credit-report-formatter",
-  "version": "0.1.3",
-  "description": "将 markdown 格式的授信报告转换为标准格式的 docx 文件（黑体/宋体、固定行距、表格全边框居中等）",
-  "author": {
-    "name": "bubu-h"
-  }
-}

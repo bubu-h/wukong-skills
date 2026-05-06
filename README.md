@@ -4,39 +4,17 @@
 
 ## 当前包含的 Skill
 
-| Skill | 说明 | 版本 |
-|---|---|---|
-| [credit-report-formatter](./credit-report-formatter/) | 将 markdown 格式的授信报告转换为标准格式的 docx 文件 | 0.1.3 |
+暂无。
 
 ## 安装方法
 
-在 Claude Code 中执行以下两条命令：
+在 Claude Code 中执行以下命令注册本仓库为 marketplace：
 
 ```
 /plugin marketplace add bubu-h/wukong-skills
-/plugin install credit-report-formatter@wukong-skills
 ```
 
-第一条命令把本仓库注册为 marketplace，**只需要执行一次**。
-第二条命令安装具体的 skill，未来本仓库新增 skill 时，只需执行 `/plugin install <new-skill>@wukong-skills` 即可。
-
-## 升级
-
-```
-/plugin update credit-report-formatter@wukong-skills
-```
-
-## 卸载
-
-```
-/plugin uninstall credit-report-formatter@wukong-skills
-```
-
-## 各 Skill 的详细使用说明
-
-请进入对应子目录查看 README，例如：
-
-- [credit-report-formatter/README.md](./credit-report-formatter/README.md)
+未来本仓库新增 skill 时，执行 `/plugin install <skill-name>@wukong-skills` 即可安装。
 
 ## 贡献
 

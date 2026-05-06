@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-05-06
+
+### Removed
+- 删除 `credit-report-formatter` skill
+
+---
+
 ## [credit-report-formatter] 0.1.3 - 2026-05-04
 
 ### Changed

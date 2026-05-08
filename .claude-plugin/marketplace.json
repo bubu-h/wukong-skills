@@ -4,15 +4,5 @@
   "owner": {
     "name": "bubu-h"
   },
-  "plugins": [
-    {
-      "name": "wukong-test",
-      "description": "A simple test skill that greets with '俺老孙在此' when invoked manually.",
-      "author": {
-        "name": "bubu-h"
-      },
-      "source": "./plugins/wukong-test",
-      "category": "productivity"
-    }
-  ]
+  "plugins": []
 }

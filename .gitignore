@@ -1,24 +1,10 @@
-# Python
-__pycache__/
+.DS_Store
+__pycache__
 *.pyc
 *.pyo
-*.pyd
-.Python
-
-# Test / debug outputs
 *.tmp
 *.bak
 demo-*.docx
-demo-*.md
 test-*.docx
-test-*.md
-
-# IDE
 .vscode/
 .idea/
-*.swp
-
-# OS
-.DS_Store
-Thumbs.db
-desktop.ini

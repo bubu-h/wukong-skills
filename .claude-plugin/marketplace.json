@@ -1,8 +1,16 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "wukong-skills",
   "description": "孙悟空（@bubu-h）的 Claude Code Skill 集合",
   "owner": {
     "name": "bubu-h"
   },
-  "plugins": []
+  "plugins": [
+    {
+      "name": "liudai-credit-report",
+      "description": "根据提供的材料撰写银行流动资金贷款授信审批报告，输出规定格式 Word 文档",
+      "source": "./plugins/liudai-credit-report",
+      "category": "productivity"
+    }
+  ]
 }

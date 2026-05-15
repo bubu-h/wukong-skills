@@ -4,7 +4,9 @@
 
 ## 当前包含的 Skill
 
-暂无。
+| Skill 名称 | 说明 |
+|---|---|
+| [liudai-credit-report](plugins/liudai-credit-report/) | 根据材料撰写流贷授信报告，输出 Word 文档 |
 
 ## 安装方法
 

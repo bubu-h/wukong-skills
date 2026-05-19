@@ -1,7 +1,7 @@
 {
   "name": "liudai-credit-report",
   "description": "根据提供的材料撰写银行流动资金贷款授信审批报告，输出规定格式 Word 文档",
-  "version": "1.0.4",
+  "version": "1.1.4",
   "author": {
     "name": "bubu-h"
   },

@@ -38,6 +38,17 @@ from docx.oxml.ns import qn, nsdecls
 from docx.oxml import parse_xml
 
 
+def _set_run_font(run, font_name="宋体"):
+    """同时设置西文和东亚字体，防止 Word 回退到 MS 明朝。"""
+    run.font.name = font_name
+    rpr = run._r.get_or_add_rPr()
+    rFonts = rpr.find(qn("w:rFonts"))
+    if rFonts is None:
+        rFonts = parse_xml(f'<w:rFonts {nsdecls("w")}/>')
+        rpr.insert(0, rFonts)
+    rFonts.set(qn("w:eastAsia"), font_name)
+
+
 # ═══════════════════════════════════════════════════
 #  工具函数
 # ═══════════════════════════════════════════════════
@@ -184,7 +195,7 @@ def add_paragraph(
         if not part_text:
             continue
         run = p.add_run(part_text)
-        run.font.name = "宋体"
+        _set_run_font(run)
         run.font.size = font_size
         run.font.bold = bold or is_bold_inline
         if is_highlighted:
@@ -288,7 +299,7 @@ def add_table(doc, headers, rows):
         p = cell.paragraphs[0]
         p.alignment = WD_ALIGN_PARAGRAPH.CENTER
         run = p.add_run(header)
-        run.font.name = "宋体"
+        _set_run_font(run)
         run.font.size = Pt(10.5)
         run.font.bold = True
         _set_cell_borders(cell)
@@ -313,7 +324,7 @@ def add_table(doc, headers, rows):
                 if not part_text:
                     continue
                 run = p.add_run(part_text)
-                run.font.name = "宋体"
+                _set_run_font(run)
                 run.font.size = Pt(10.5)
                 run.font.bold = is_bold_inline
                 if is_hl:
